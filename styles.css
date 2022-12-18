@@ -91,7 +91,7 @@ li{
       height: 100vh;
   }
   .join-title{
-      padding-top: 5vh;
+      padding-top: 15vh;
       text-align: center;
   }
 
@@ -99,7 +99,51 @@ li{
       display: flex;
       justify-content: space-around;
   }
-
+  .join-title p{
+      padding-top: 5vh;
+      font-size: 15px;
+      padding-bottom: 3vh;
+  }
+  .department{
+      padding-right: 125px;
+      /* padding-top: 50px; */
+  }
   .department img{
-      height: 100px;
+      height: 200px;
+      /* padding-right: 100px; */
+  }
+
+  .department h6{
+      padding-top: 2vh;
+      font-size: 15px;
+      text-align: center;
+  }
+
+  .join-button{
+    padding-top: 25vh;
+    margin: 0;
+    position: absolute;
+    left: 46%;
+  }
+
+  #inquire{
+      height: 100vh;
+  }
+  .inquire-title{
+    padding-top: 15vh;
+    text-align: center;
+  }
+  .inquire-body{
+      display: flex;
+      justify-content: space-around;
+  }
+  .inquire-text{
+      padding-top: 20vh;
+  }
+  .inquire-text h2{
+      font-size: 50px;
+  }
+  .inquire-body img{
+    width: 25%;
+    padding-top: 5vh;
   }
