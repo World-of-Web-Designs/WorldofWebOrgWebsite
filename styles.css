@@ -9,11 +9,16 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    height: 10vh;
+    /* background-color: #D9B3B8; */
     /*background-color: rgb(201, 201, 201);*/
     /* background-color: #e8e6e0; */
     text-decoration: none;
     /* z-index: 10000; */
+}
+.navbar{
+    position: fixed;
+    width: 100%;
 }
 .logo{
     max-height: 8vh;
@@ -22,7 +27,7 @@ nav{
     left: 10%;
 }
 .logo img{
-    width: 50%;
+    width: 65%;
     height: auto;
 }
 a{
@@ -44,16 +49,30 @@ li{
 .nav-links .link:hover{
     color: #D9B3B8;
 }
-
+#home{
+    height: 100vh;
+}
 .home-body{
     display: flex;
     justify-content: space-around;
+    padding-top: 10vh;
 }
 
 #home img{
     width: 35%;
+    padding-top: 5vh;
 }
 
+.home-text{
+    padding-top: 20vh;
+}
+.home-text h1{
+    font-size: 50px;
+}
+.home-text p{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
 .button {
     background-color: #D9B3B8;
     border: none;
@@ -66,4 +85,21 @@ li{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 20px;
+  }
+
+  #join{
+      height: 100vh;
+  }
+  .join-title{
+      padding-top: 5vh;
+      text-align: center;
+  }
+
+  .department-box{
+      display: flex;
+      justify-content: space-around;
+  }
+
+  .department img{
+      height: 100px;
   }
